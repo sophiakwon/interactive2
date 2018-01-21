@@ -1,0 +1,241 @@
+/* reset padding and margins */
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	font-family: helvetica, arial, sans-serif;
+}
+
+/* container */
+
+.container {
+	position: relative;
+}
+
+/* items */
+
+.item {
+	height: 300px;
+	width: 300px;
+	background: pink
+;
+	color: yellow;
+
+	margin: 10px;
+
+	/* comment out 'float: left;' to have items stack in a single column */
+	float: left; 
+
+	/* uncomment this to get CSS transitions (conflicts with jQuery) */
+	/* transition: all 500ms ease; */
+}
+
+
+
+/* example buttons */
+
+
+#button-1:hover {
+	transform: rotate(deg) scale(1.5);
+	opacity:.5 ;
+	background-color: red;
+	font-color: pink;
+  transform: rotate(deg);
+  font-family: 'Karla', sans-serif;
+  font-size:100px;
+  text-decoration:none;
+  font-weight:bold;
+  font-style:normal;
+  float:left;
+  text-shadow: red;
+ 
+    	position: relative;
+	transition: all 1500ms ease;	
+
+}
+
+#button-1:active {
+	background: pink;
+	opacity: 1;
+}
+
+.b1{ height:300px;
+     width:300px; 
+     float:left;
+     color:pink;
+     background:pink;
+     opacity:0;
+     margin:10px;
+/* example buttons */
+}
+#button-2::after {
+	content: ;
+	color: white;
+}
+
+
+#button-2:hover::after {
+	content: 
+	color: purple;
+
+}
+.b2{ height:300px;
+     width:300px; 
+     float:left;
+     color:white;
+     font-size: 40px;
+     background:pink;
+     opacity:1;
+     margin:10px;
+/* example buttons */
+}
+
+
+#button-4:hover {
+  background-color: black ;
+  transform: rotate(0deg);
+  }
+
+.b4 {
+	height: 300px;
+	width: 300px;
+	background: pink
+;
+	color: pink;
+
+	margin: 10px;
+
+	/* comment out 'float: left;' to have items stack in a single column */
+	float: left; 
+
+	/* uncomment this to get CSS transitions (conflicts with jQuery) */
+	/* transition: all 500ms ease; */
+
+}
+
+  .b4:hover {
+/*  visibility:visible;
+*/  font-color: pink;
+  transform: rotate(deg);
+  color:transparent;
+  font-family: 'Karla', sans-serif;
+  font-size:90px;
+  text-decoration:none;
+  font-weight:bold;
+  font-style:normal;
+  float:left;
+  text-shadow: pink;
+  animation-name:bounce_but;
+    -o-animation-name:bounce_but;
+    -ms-animation-name:bounce_but;
+    -webkit-animation-name:bounce_but;
+    -moz-animation-name:bounce_but;
+  animation-duration:2.09s;
+    -o-animation-duration:2.09s;
+    -ms-animation-duration:2.09s;
+    -webkit-animation-duration:2.09s;
+    -moz-animation-duration:2.09s;
+  animation-iteration-count:infinite;
+    -o-animation-iteration-count:infinite;
+    -ms-animation-iteration-count:infinite;
+    -webkit-animation-iteration-count:infinite;
+    -moz-animation-iteration-count:infinite;
+  animation-direction:normal;
+    -o-animation-direction:normal;
+    -ms-animation-direction:normal;
+    -webkit-animation-direction:normal;
+    -moz-animation-direction:normal;
+    	
+
+}
+
+
+
+
+#inTurnBlurringTextG_1{
+  animation-delay:5s;
+    -o-animation-delay:3s;
+    -ms-animation-delay:3s;
+    -webkit-animation-delay:3s;
+    -moz-animation-delay:3s;
+  
+}
+
+
+@keyframes bounce_but{
+  0%{
+    text-shadow: white;
+  }
+
+  100%{
+    text-shadow: rgb(255,255,255) 0 0 50px;
+  }
+}
+
+@-o-keyframes bounce_but{
+  0%{
+    text-shadow: rgb(0,0,0) 0 0 0;
+  }
+
+  100%{
+    text-shadow: rgb(255,255,255) 0 0 50px;
+  }
+}
+
+@-ms-keyframes bounce_but{
+  0%{
+    text-shadow: rgb(0,0,0) 0 0 0;
+  }
+
+  100%{
+    text-shadow: rgb(255,255,255) 0 0 50px;
+  }
+}
+
+@-webkit-keyframes bounce_but{
+  0%{
+    text-shadow: rgb(0,0,0) 0 0 0;
+  }
+
+  100%{
+    text-shadow: rgb(255,255,255) 0 0 50px;
+  }
+}
+
+@-moz-keyframes bounce_but{
+  0%{
+    text-shadow: white;
+  }
+
+  100%{
+    text-shadow: rgb(255,255,255) 0 0 50px;
+  }
+
+.b5{ height:300px;
+     width:300px; 
+     float:left;
+     color:pink;
+     background:pink;
+     opacity:1;
+     margin:10px;
+/* example buttons */
+}
+}
+
+
+
+}
+
+#button-5:active {
+	background: pink;
+	opacity: 1;
+}
+
+#water:{
+	left:300px;
+	
+}
+  

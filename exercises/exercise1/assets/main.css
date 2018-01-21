@@ -1,0 +1,1032 @@
+/* reset padding and margins */
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	font-family: helvetica, arial, sans-serif;
+}
+
+/* container */
+
+.container {
+	position: relative;
+}
+
+/* items */
+
+.item {
+	height: 300px;
+	width: 300px;
+	background: olive;
+	color: white;
+	opacity:.7;
+
+	margin: 50px;
+
+	/* comment out 'float: left;' to have items stack in a single column */
+	float: left; 
+
+	/* uncomment this to get CSS transitions (conflicts with jQuery) */
+	/*transition: all 500ms ease; */
+}
+
+/*background color*/
+#button-1{
+	background: #FEDD00;
+	transition: all 2s;
+
+}
+
+#button-1:hover {
+	transform: rotate(360deg) scale(3.22);
+	background-color:white;
+	opacity:0;
+}
+/*
+#button-1:active {
+	animation: pulse 1s infinite;	
+}*/
+
+
+#button-2{
+	background: #FE5000;
+	transition: all 1s;
+}
+
+
+#button-2:hover {
+	transform: rotate(90deg) scale(0.2);
+	opacity: .3;
+}
+
+#button-2::after {
+	
+}
+
+
+#button-2:hover::after {
+	color: red;
+}
+
+
+#button-3{
+	background: #CE0058;
+}
+
+#button-3:hover {
+	animation: pulse 1s infinite;	
+	font-size: 30px
+}
+@keyframes pulse{
+	25%{
+		transform: scale(1.1)
+	}
+	75%{
+		transform: scale(0.9)
+	}
+} 
+
+
+#button-4{
+	background: #BB29BB;
+	transition: all 6s;
+}
+#button-4:hover {
+	transform: rotateX(780deg);
+	background: pink;
+}
+
+#button-4:active { 
+	background: yellow;
+	transform: rotateZ(90deg);
+	mix-blend-mode: screen;
+
+ }
+
+#button-5{
+	background: 
+	transition:
+}
+
+#button-5:hover {
+	transform: 
+	opacity: .3;
+	background:;
+}
+
+#button-5:active {
+	background: ;
+	opacity: 1;
+}
+
+
+#button-6{
+	background: ;
+	transition: 
+}
+
+#button-6:hover {
+	background: 
+	transform: 
+	opacity: 
+}
+
+#button-6:active {
+	background: 
+}
+
+
+#button-7{
+	background: 
+}
+
+#button-7:hover {
+
+}	
+
+#button-7:active {
+	background: 
+}
+
+#button-8{
+	background:
+}
+
+#button-8:hover {
+	transform: 
+}
+
+
+#button-9{
+	background-color:pink;
+	transition: 2s ease;
+	opacity:1;
+	rotate:;
+}
+
+#button-9:hover:after{
+	
+	color:white;
+	line-height:33vh;
+	font-size:18pt;
+	letter-spacing: 2pt;
+	transition: 2s ease;
+	rotate:;
+}
+
+.eat{
+	width:89.3vw;	
+	transition: 2s ease;
+}
+
+
+#button10 
+@-webkit-keyframes hvr-back-pulse {
+  50% {
+    background-color: orange;
+  }
+}
+@keyframes hvr-back-pulse {
+  50% {
+    background-color: pink;
+  }
+}
+.hvr-back-pulse {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  overflow: hidden;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-property: color, background-color;
+  transition-property: color, background-color;
+}
+.hvr-back-pulse:hover, .hvr-back-pulse:focus, .hvr-back-pulse:active {
+  -webkit-animation-name: hvr-back-pulse;
+  animation-name: hvr-back-pulse;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-delay: 0.5s;
+  animation-delay: 0.5s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  background-color: orange;
+  background-color:pink
+  color: pink;
+}
+
+#button11
+.hvr-sweep-to-right {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  position: relative;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+.hvr-sweep-to-right:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #2098D1;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transform-origin: 0 50%;
+  transform-origin: 0 50%;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-sweep-to-right:hover, .hvr-sweep-to-right:focus, .hvr-sweep-to-right:active {
+  color: white;
+}
+.hvr-sweep-to-right:hover:before, .hvr-sweep-to-right:focus:before, .hvr-sweep-to-right:active:before {
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+#button12
+.hvr-sweep-to-left {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  position: relative;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+.hvr-sweep-to-left:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: orange;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transform-origin: 100% 50%;
+  transform-origin: 100% 50%;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-sweep-to-left:hover, .hvr-sweep-to-left:focus, .hvr-sweep-to-left:active {
+  color: white;
+}
+.hvr-sweep-to-left:hover:before, .hvr-sweep-to-left:focus:before, .hvr-sweep-to-left:active:before {
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+
+
+#button-13{
+	background: springgreen;
+}
+
+
+#button-14{
+background: purple;
+}
+
+#button-14:hover {
+	transform: translateX(120px);
+	transform: skewX(180deg);
+	opacity: .6;
+}
+
+#button-15 {
+	background: navy;
+	color: white;
+	z-index: 100;
+}
+
+.ripple {
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+  text-align:center;
+ /* margin-top: 200px;*/
+}
+
+
+/*.click {
+	position: relative;
+	overflow: hidden;
+  height: 100%;
+  text-align:center;
+  margin-top: 200px;
+}*/
+
+.ink {
+  display: block;
+  position: absolute;
+  background: rgba(255, 255, 255, 0.25);
+  border-radius: 100%;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+}
+
+.ink {
+  -webkit-animation: ripple 0.5s linear;
+          animation: ripple 0.5s linear;
+}
+
+@-webkit-keyframes ripple {
+  100% {
+    opacity: 0;
+    -webkit-transform: scale(1.5);
+            transform: scale(1.5);
+  }
+}
+
+@keyframes ripple {
+  100% {
+    opacity: 0;
+    -webkit-transform: scale(1.5);
+            transform: scale(1.5);
+  }
+}
+
+
+
+#button-16{
+	background: thistle;
+}
+
+
+
+
+#button-17{
+	background: yellow;
+}
+
+.random8a{
+	animation: random8a 2s infinite;
+	
+}
+@keyframes random8a{
+	
+	75%{
+		filter: grayscale(100);
+	}
+} 
+
+
+#button-18{
+	background: salmon;
+	color: white;
+}
+
+#button-19{
+	background: gray;
+}
+
+.random2a{
+	animation: random2a 6s infinite;
+}
+@keyframes random2a{
+	
+	75%{
+		background: yellow;
+		transform: rotate(190deg) translate(0px,10px);
+	}
+} 
+
+#button-20:hover{
+	background:lime;
+	transition:0.5s ease;
+}
+
+#button-20{
+	background: #6BBBAE;
+}
+
+.random13a{
+	animation: random13a .5s infinite;
+	
+}
+@keyframes random13a{
+	
+	25%{ 
+		filter: invert(.8);
+
+	}
+
+	75%{
+		filter: contrast(4);
+
+	}
+} 
+
+#button-21 {
+	background: olive;
+	color: white;
+}
+
+#button-21 > #sixteen {
+font-size:60px;
+font-weight:bold;
+margin-left:53px;
+margin-top:107px;
+	transition: all 0.3s ease-in-out;
+
+}
+
+#button-21:hover > #sixteen {
+	 text-shadow: 
+	 0 0 10px white, 
+	 0 0 20px white, 
+	 0 0 30px white, 
+	 0 0 40px yellow, 
+	 0 0 70px yellow, 
+	 0 0 80px yellow, 
+	 0 0 100px orange, 
+	 0 0 150px orange;
+	opacity:1.0;
+  color: white;
+
+}
+
+#button-22 {
+	background: plum;
+	font-size:200px;
+	
+}
+
+#button-22:hover > #thirteen {
+	filter: blur(15px);
+
+
+	
+}
+
+#button-22 > #thirteen {
+	transition: all 500ms ease; 
+	margin-top:30px;
+	margin-left:38px;
+}
+#button-23{
+	background: lightblue;
+}
+.random6a{
+	animation: random6a 3s infinite;
+	
+}
+@keyframes random6a{
+	
+	75%{
+		filter: blur(10px);
+
+	}
+} 
+
+#button-24{
+	background: black;
+	color: white;
+	transition: all 500ms ease; 
+
+}
+
+#button-2 > #sub {
+	/*background:green;*/
+	color: white;
+}
+
+
+#button-25 {
+	background: orange;
+	transition: all 500ms ease; 
+	font-size:px;
+
+}
+
+#clickandhold{font-size:30px;
+margin-left:80px;
+margin-top:240px;}
+
+#button-25:hover {
+	background: blue;
+
+
+}
+
+#button-25:active {
+	background: yellow;
+	transform: scale(0.5);
+	border-radius: 600px;
+	width:50px;
+	height:50px;
+}
+
+@-webkit-keyframes shake {
+	0% { -webkit-transform: translate(2px, 1px) rotate(0deg); }
+	10% { -webkit-transform: translate(-1px, -2px) rotate(-1deg); }
+	20% { -webkit-transform: translate(-3px, 0px) rotate(1deg); }
+	30% { -webkit-transform: translate(0px, 2px) rotate(0deg); }
+	40% { -webkit-transform: translate(1px, -1px) rotate(1deg); }
+	50% { -webkit-transform: translate(-1px, 2px) rotate(-1deg); }
+	60% { -webkit-transform: translate(-3px, 1px) rotate(0deg); }
+	70% { -webkit-transform: translate(2px, 1px) rotate(-1deg); }
+	80% { -webkit-transform: translate(-1px, -1px) rotate(1deg); }
+	90% { -webkit-transform: translate(2px, 2px) rotate(0deg); }
+	100% { -webkit-transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+#button-26 {
+	background: brown;
+
+
+}
+
+.ink {
+  display: block;
+  position: absolute;
+  background: hsl(180, 40%, 80%);
+  border-radius: 100%;
+  transform: scale(0);
+}
+
+.ink.animate {
+  animation: ripple 0.65s linear;
+}
+
+@keyframes ripple {
+  /*scale the element to 250% to safely cover the entire link and fade it out*/
+  
+  100% {
+    opacity: 0;
+    transform: scale(2.5);
+  }
+}
+
+#drags{
+	font-size:200px;
+margin-left: 40px;
+margin-top:35px;
+
+}
+
+
+#button-27{
+	background: cyan;
+	 -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+
+
+}
+
+#twentytwo{
+	margin-left: 40px;
+	margin-top:35px;
+}
+
+#button-28{
+	background: moccasin;
+	transition: all 500ms ease; 
+	font-size:200px;
+}
+
+#button-29:hover,
+#button-29:focus {
+	-webkit-animation-name: shake;
+	-webkit-animation-duration: 0.8s;
+	-webkit-transform-origin:50% 50%;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+}
+
+#button-29 {
+	background: pink;
+	transition: all 500ms ease; 
+
+}
+
+#scared {font-size:30px;
+		margin-left:100px;
+		margin-top:240px;}
+
+#button-30{
+	background: #F93822;
+}
+#eight{	font-size:200px;
+margin-left: 40px;
+margin-top:35px;	
+}
+
+#ten{font-size:200px;
+	margin-left: 40px;
+	margin-top:35px;}
+
+
+
+
+.random1a{
+	animation: random1a 3s infinite;
+}
+@keyframes random1a{
+	
+	75%{
+		transform: rotate(90deg) translate(0px,10px);
+	}
+} 
+
+#button-31{
+		background: lavender;
+	transition: all 500ms ease; 
+	z-index:90;
+
+}
+
+#twentyone{font-size:200px;
+	margin-left: 40px;
+	margin-top:35px;}
+
+#twenty{font-size:200px;
+	margin-left: 40px;
+	margin-top:35px;}
+
+}}
+.random2a{
+	animation: random2a 6s infinite;
+}
+@keyframes random2a{
+	
+	75%{
+		background: yellow;
+		transform: rotate(190deg) translate(0px,10px);
+	}
+} 
+
+#button-32{
+	background: orange;
+	transition: all 500ms ease; }
+
+.random3a{
+	animation: random3a 6s infinite;
+}
+@keyframes random3a{
+	
+	75%{
+		transform: translate3d(200px,0px,-200px);
+	}
+} 
+
+#button-33{
+	background: #4E008E;
+	transition: all 500ms ease;
+}
+#twentythree {
+	transition: all 500ms ease; 
+}
+
+.random4a{
+	animation: random4a 2s infinite;
+}
+@keyframes random4a{
+
+	25%{
+		transform: translate3d(-200px,0px,200px);
+	}
+	
+	75%{
+		transform: translate3d(200px,0px,-200px);
+
+	}
+} 
+
+#button-34{
+	background: #00239C;
+}
+
+.random5a{
+	animation: random5a 1s infinite;
+
+}
+@keyframes random5a{
+
+	25%{
+		transform: translate3d(-200px,0px,200px);
+	}
+	
+	75%{
+		transform: scale(2,2) rotate(90deg) translate3d(200px,0px,-200px);
+
+	}
+} 
+
+
+#button-35{
+	background: red;
+	transition: all 500ms ease;
+}
+#twentythree {
+	transition: all 500ms ease; 
+	font-size:200px;
+	margin-left: 35px;
+	margin-top:25px;
+
+}
+
+#button-36{
+	background: #00B08B;
+}
+
+.random7a{
+	animation: random7a 2s infinite;
+	
+}
+@keyframes random7a{
+	
+	75%{
+		filter: drop-shadow(10px 10px 10px black);
+	}
+} 
+
+
+#button-37{
+	background: orange;
+	}
+	input {
+
+	font-size: 100px;
+	width:300px; 
+	height: 260px;
+	background: transparent; 
+	border:none; text-align: 
+	center; color: white;
+	font-family: helvetica;
+	font-weight: bold;
+}
+
+input::-webkit-input-placeholder {
+  color: black;
+  font-size: 30px;
+}
+
+
+
+
+
+#button-48 {
+	background: pink  ;
+	transition: all 500ms ease; 
+	z-index:90;
+
+}
+
+#twentyone{font-size: 200px;}
+
+
+#button-39{
+	background: #B580D1;
+}
+
+.random10a{
+	animation: random10a 2s infinite;
+	
+}
+@keyframes random10a{
+	
+	75%{
+		filter: saturate(8);
+		border-radius: 50%;
+	}
+} 
+
+
+#button-40{
+	background: #8094DD;
+}
+
+.random11a{
+	animation: random11a 2s infinite;
+	
+}
+@keyframes random11a{
+	
+	75%{
+		filter: invert(.8);
+		border-radius: 50%;
+		transform: rotate(190deg) translate(0px,10px);
+	}
+} 
+#button-41{
+	background: #00B5E2;
+}
+
+.random12a{
+	animation: random12a 2s infinite;
+	
+}
+@keyframes random12a{
+	
+	75%{
+		filter: brightness(3);
+		border-radius: 50%;
+		transform: rotate(190deg) translate(10px,0px);
+	}
+} 
+
+#button-42{
+	background: salmon;
+}
+
+.random19a{
+	animation: random19a 2s infinite;
+	
+}
+@keyframes random19a{
+
+	75%{
+		filter:drop-shadow(15px 15px 15px orange);
+		border-radius: 80%;
+		transform: scale(0.0)
+
+	}
+} 
+
+#button-43{
+	background: #EFDF00;
+}
+
+.random14a{
+	animation: random14a 2s infinite;
+	
+}
+@keyframes random14a{
+
+	25%{ 
+		filter: contrast(2);
+		 	border-radius: 80%;
+		transform: scale(0.5)
+
+
+	}
+
+	75%{
+		filter: contrast(50);
+		transform: scale(10)
+
+	}
+} 
+
+
+#button-44{
+	background: #C1C6C8;
+}
+
+.random15a{
+	animation: random15a 3s infinite;
+	
+}
+@keyframes random15a{
+
+	25%{ 
+		filter: hue-rotate(240deg);
+		transform: scale(1.1)
+
+	}
+
+	75%{
+		filter: hue-rotate(50deg);
+		border-radius: 50%;
+		transform: scale(0.9)
+
+	}
+} 
+
+#button-45{
+	background-color:indigo;
+}
+
+#button-45:hover:after{
+	content:"DIET.";
+	color:white;
+	line-height:33vh;
+	font-size:18pt;
+	letter-spacing: 2pt;
+	margin-left: 20px;
+
+}
+
+#button-46{
+	background: #B7BF10;
+}
+
+#button-46:hover:after{
+	content:"CLOSE TAB.";
+	color:white;
+	line-height:33vh;
+	font-size:18pt;
+	letter-spacing: 2pt;
+	margin-left: 20px;
+	
+}
+
+.random17a{
+	animation: random17a 2s infinite;
+}
+@keyframes random17a{
+	
+	75%{
+		filter: contrast(5) saturate(2) sepia(.8);
+		
+	}
+} 
+
+#button-47{
+	background: orange;
+	transition: all 500ms ease; 
+}
+
+#twentysix{
+	transition: all 500ms ease; 
+	font-size: 200px;
+	margin-left: 35px;
+	margin-top:35px;}
+
+
+
+#button-49{
+	background: #2AD2C9;
+}
+
+.random20a{
+	animation: random20a 1s infinite;
+	
+}
+@keyframes random20a{
+
+	25%{
+		border-radius: 0%;
+		transform: scale(1.2);
+	}
+
+	75%{
+		filter: hue-rotate(360deg);
+		border-radius: 50%;
+		transform: scale(0.9)
+
+	}
+} 
+
+#button-50{
+background: lemonchiffon;}
+
+#오십{color:salmon;
+	font-size: 200px;
+	margin-left:35px;
+margin-top: 35px}
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
