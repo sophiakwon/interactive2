@@ -209,11 +209,11 @@ function flash(e){
 
 	});
 
-	
 	$('#button-38').hover(function() {
 		$(".item").toggleClass('random9a');
 
 	});
+
 
 	$('#button-39').hover(function() {
 		$(".item").toggleClass('random10a');

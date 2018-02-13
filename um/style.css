@@ -1,0 +1,453 @@
+body, div, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, form, fieldset, input, textarea, blockquote {
+	margin: 0; padding: 0; border: 0;
+}
+
+body {
+	font: 18px/30px Sans-serif; color: #fff;
+	font-family: "proxima-nova";
+}
+
+li{
+	box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
+}
+
+
+
+section {
+	overflow-x: hidden; 
+
+}
+
+.arrow{	
+	position: fixed;
+	bottom: 1%;
+	left: calc(50% - 11px);
+	animation:arrow 0.6s infinite;
+	animation-direction: alternate;
+	margin-right: auto;
+	width: auto;
+}
+
+.arrow:hover{
+	cursor: pointer;
+}
+
+@keyframes arrow{
+    from{opacity: 0;bottom: 3%;   }
+    to{opacity: 0.7;bottom: 2%;}
+}
+
+#intro { 
+	height: 6900px;
+	background-color: #f6f0e2;
+}
+
+.mask3{
+    width: 120%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.mask2{
+    width: 105%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: -2.5%;
+    opacity: 0;
+}
+.mask1{
+    width: 105%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: -2.5%;
+    opacity: 1;
+}
+
+.roy{
+	position: absolute;
+	left: -20%;
+	top: 10%;
+	width: 100%;
+
+
+}
+
+.comic{
+	width: 100%;
+	height: 100%;
+	background-image: url(images/comic.jpg);
+}
+	
+	
+	
+#firstani {
+	
+	position: relative; 
+	height: 3000px;
+}
+
+#thirdani {
+	
+	position: relative; 
+	height: 3000px;
+}
+
+.back{
+	height: 110%;
+	position: fixed;
+	left: 0;
+	top: 0;
+}
+
+.back2{
+	height: 110%;
+	position: fixed;
+	left: 0;
+	top: 0;
+}
+
+.back3{
+	height: 110%;
+	position: fixed;
+	left: 0;
+	top: 0;
+
+}
+
+.back4{
+	width: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	height: auto;
+}
+
+.bullet{
+	position: fixed;
+	right: 41%;
+	top: 11.5%;
+	transform: scale(0.04);
+}
+
+.varoom{
+	position: fixed;
+	right: 0;
+    bottom: -20%;
+}
+
+.cloud{
+   position: fixed;
+   top: 20%;
+}
+
+.plane{
+	position: fixed;
+    height: 100%;
+	top: 0%;
+}
+
+.fire{
+	position: fixed;
+   height: 100%;
+	top: 0%;
+}
+
+.whaam{
+	position: fixed;
+   
+	top: 30%;
+}
+
+	
+	
+#artist{
+	background-color: #f6f0e2;
+	background-size: 100% auto;
+	height: 839px;
+	
+	
+}
+
+.endpoint{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+	
+	#artist p {
+		position: absolute;
+		font-weight: 300;
+		font-size:0.8em;
+		line-height:27px;
+		top: 255px; 
+		right: 5%;
+		width: 35%;
+		height: 500px;	
+		color: black;
+	
+	}
+
+.tag{
+	width: auto;
+	background-color: white;
+	color: black;
+	height: auto;
+	position: absolute;
+	font-weight: 600;
+	font-size: 2.3em;
+	left: 3%;
+	padding-top: 160px;
+	padding-bottom: 20px;
+	padding-left: 25px;
+	padding-right: 25px;
+	box-shadow: 0px 20px 23px -15px rgba(0,0,0,0.45);
+	line-height: 38px;
+
+}
+
+
+#secondani {
+	background: #28323c url(images/paper.jpg);
+	background-size: 100% 100%; 
+	height: 2200px;
+	
+}
+
+#tickets {
+	background: #f6f0e2 url(images/finaltitle.png); 
+	background-size: 100% auto; 
+	height: 940px;
+	
+}
+.hand1{
+	position: fixed;
+    height: 100%;
+	top: 0%;
+}
+
+.hand2{
+	position: fixed;
+    height: 100%;
+	top: 0%;
+}
+
+
+#exhibition{
+	background-color: #f6f0e2;
+	height:839px;
+}	
+
+
+#exhibition p {
+		position: absolute;
+		font-weight: 300;
+		font-size:0.8em;
+		line-height:27px;
+		top: 225px; 
+		left: 5%;
+		
+		width: 35%;
+		height: 500px;		
+		color: black;
+	}
+
+.people{
+	position: absolute;
+	
+	top: 0;
+	height: 100%;
+	left: 45%;
+}
+
+
+.stage{
+	position: absolute;
+	right: -10%;
+    top: calc(50% - 400px);
+	background-color: transparent;
+	height: 600px;
+	width: 80%;
+	float: left;
+}
+
+.box{
+	box-shadow: 0px 20px 23px -15px rgba(0,0,0,0.45);
+	margin:1%;
+	margin-bottom: 15px;
+	margin-top:15px;
+	height: 160px;
+	width: 24%;
+	float: left;
+	background-color: black;
+	position: relative;
+	transition: 0.5s;
+}
+
+.box:hover{
+	transform: scale(1.1,1.1);
+	
+}
+
+.aa{
+	background-image: url(images/mmaybe.jpg);
+	background-size: cover;
+}
+
+.bb{
+   background-image: url(images/drowninggirl.jpg);
+	background-size: cover;
+}
+
+.cc{
+   background-image: url(images/alright.jpg);
+	background-size: cover;
+}
+
+.dd{
+   background-image: url(images/jeff.jpg);
+	background-size: cover;
+}
+.ee{
+   background-image: url(images/whaam.jpg);
+	background-size: cover;
+	width: 50%;
+}
+.ff{
+   background-image: url(images/ring.jpg);
+	background-size: cover;
+}
+
+.gg{
+   background-image: url(images/pistal.jpg);
+	background-size: cover;
+}
+
+.hh{
+   background-image: url(images/varoom.jpg);
+	background-size: cover;
+}
+
+#artwork{
+	background-color: #f6f0e2;
+	height: 900px;
+}
+
+.tagbox{
+	margin:1%;
+	background-color: transparent;
+	height: 60px;
+	color: black;
+	font-weight: 300;
+	font-size: 0.7em;
+	line-height: 17px;
+	
+    margin-bottom: 0px;
+    width: 24%;
+    float: left;
+}
+
+.eee{
+	width: 540px;
+}
+
+#tickets p {
+		position: absolute;
+		top: 495px; 
+		left: calc(50% - 50px);
+		width: 100px;
+		text-align: center;
+		color: #f6f0e2;
+
+	}
+
+.buytickets{
+		position: absolute;
+		top: 56%; 
+		left: calc(50% - 50px);
+		width: 100px;
+		text-align: center;
+		color: #f6f0e2;	
+	}
+
+.buytickets{
+     cursor: pointer;
+     text-decoration: underline;
+}	
+
+.credit{
+	background-color:#f6f0e2;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	left: 0;
+	color: black;
+	height: 200px;
+	box-shadow: 0px 7px 59px -11px rgba(0,0,0,0.35);
+}
+
+.logo{
+	
+	padding-bottom: 15px;
+    padding-left: 40px;
+    padding-top: 30px;
+	font-weight: 800;
+	line-height: 10px;
+}
+
+.logo2{
+	padding:20px;
+    padding-left: 20px;
+	font-weight: 800;
+	line-height: 10px;
+}
+
+.logo2 img{
+	margin-left: 20px;
+}
+
+#share-buttons{
+	right: 40px;
+	position: absolute;
+	top: 30px;
+
+}
+
+#share-buttons img {
+width: 35px;
+padding: 5px;
+border: 0;
+box-shadow: 0;
+display: inline;
+}
+
+a{
+	text-decoration: none;
+}
+
+#tickets p{
+	color: grey;
+	position: absolute;
+	right: 40px;
+	top: 40px;
+	font-size: 0.6em;
+	line-height: 14px;
+	width: auto;
+	text-align: right;
+	position: absolute;
+}
+
+.description{
+	color: black;
+	position: absolute;
+	top:20%;
+	left:5%;
+	width: 200px;
+	font-weight: 300;
+		font-size:0.8em;
+		line-height:27px;
+}
