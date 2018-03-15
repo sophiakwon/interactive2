@@ -1,0 +1,632 @@
+body {
+	background: ivory;
+}
+
+
+#squareG {
+	left:10px;
+	top: 330px;
+	width: 200px;
+	height: 200px;
+	background: #FACDCD;
+	position: absolute;
+}
+
+#circleG {
+	font-size: 17.4em; /* This controls the size. */
+ display: inline-block;
+ width: 0.36em;
+ height: 0.36em;
+ border: 0.18em solid #FE5757 ;
+ position: relative;
+ border-radius: 0.35em;
+ position: absolute;
+ left: 10px;
+ top: 330px;
+ opacity: .7;
+ z-index: 1;
+ transform: rotate(90deg);
+
+	opacity: 0.7;
+	transition: all 2000ms ease;
+
+}
+
+#circleG:hover {
+	opacity: 0;
+	transform: translateY(-330px);
+	transform: 		
+}
+
+
+
+
+
+
+#psquareG {
+	width: 100px;
+	height: 40px;
+	background: #4401FE;
+	opacity:.4;
+	position: absolute;
+	left:110px;
+	top:410px;
+	z-index:2;
+	transform: rotate(180deg);
+	opacity: 0.4;
+	transition: all 2000ms ease;
+
+}
+
+#psquareG:hover {
+	opacity: 0.4;
+	transform: translateX(330px);
+	
+}
+
+
+
+
+
+
+#trapG {
+	width: 55px;
+	height: 80px;
+	-webkit-transform: skew(0deg);
+	   -moz-transform: skew(20deg);
+	     -o-transform: skew(30deg);
+	     position: absolute;
+	background:#FE5757 ;
+	left:155px;
+	top:450px;
+	opacity: .8;
+	transform: rotate(deg);
+	z-index: 4;
+	opacity: 0.7;
+	transition: all 300ms ease;
+
+}
+
+#trapG:hover {
+	opacity: 0;
+	transform: translateY(px);
+	transform:
+	} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#squareE {
+	left:220px;
+	top: 330px;
+	width: 160px;
+	height: 200px;
+	background: #FACDCD;
+	position: absolute;
+}
+
+
+#squareE1 {
+	left:220px;
+	top: 330px;
+	width: 50px;
+	height: 200px;
+	background: #FE5757;
+	position: absolute;
+	opacity: 0.7;
+	transform: rotate(180deg);
+	transition: all 2000ms ease;
+	z-index: 3;
+	
+}
+
+#squareE1:hover {
+	opacity: 0.3;
+	transform: translateX(590px);
+	background:blue;
+}
+
+
+#squareE2 {
+	left:220px;
+	top: 330px;
+	width: 160px;
+	height: 50px;
+	background: #FE5757;
+	position: absolute;
+	opacity: 0.7;
+	transition: all 2000ms ease;
+}
+
+#squareE2:hover {
+	opacity: .5;
+	transform: translateY(300px);
+	background: ;
+}
+
+
+
+
+#squareE3 {
+	left:220px;
+	top: 480px;
+	width: 160px;
+	height: 50px;
+	background: #FE5757;
+	position: absolute;
+	opacity: 0.7;
+	transition: all 2000ms ease;
+}
+
+#squareE3:hover {
+	opacity: .5;
+	transform: translateX(-590px);
+	background: purple;
+}
+
+#squareE4 {
+	left:220px;
+	top: 410px;
+	width: 100px;
+	height: 40px;
+	background: #FE5757;
+	position: absolute;
+	opacity: 0.7;
+	transition: all 2000ms ease;
+	transform: rotate(180deg);
+	transform:scale();
+}
+
+#squareE4:hover {
+	opacity: 0;
+	transform: translateY(-500px);
+	background: ;
+}
+
+
+
+
+
+
+
+
+
+#squareO{
+	left:390px;
+	top: 330px;
+	width: 200px;
+	height: 200px;
+	background: #FACDCD;
+	position: absolute;
+}
+#circleO{
+	font-size: 17.4em; /* This controls the size. */
+ display: inline-block;
+ width: 0.36em;
+ height: 0.36em;
+ border: 0.18em solid #FE5757 ;
+ position: relative;
+ border-radius: 0.35em;
+ position: absolute;
+ left: 390px;
+ top: 330px;
+ opacity: .7;
+ z-index: 1;
+ transition: all 2000ms ease;
+ transform: rotate(deg);
+}
+
+#circleO:hover {
+	opacity: 0;
+	transform: scale(-20);
+	background: ;
+
+}
+
+
+
+
+
+
+
+#squareM {
+	left:600px;
+	top: 330px;
+	width: 200px;
+	height: 200px;
+	background: #FACDCD;
+	position: absolute;
+}
+
+#triangleM{
+	width: 0;
+	height: 0px;
+	border-bottom: 200px solid #FE5757 ;
+	border-right: 200px solid transparent;
+	position: absolute;
+	left: 600px;
+	top:330px;
+	opacity: .7;
+	transition: all 5000ms ease;
+	z-index: 1;
+}
+
+#triangleM:hover {
+	opacity: .5;
+	transform: rotateY(450deg);
+	z-index: 2;
+	
+}
+
+
+
+
+
+#triangleM1{
+	width: 0;
+	height: 0;
+	border-bottom: 200px solid #FE5757;
+	border-left: 200px solid transparent;
+	position: absolute;
+	left: 600px;
+	top:330px;
+	opacity: .7;
+	transition: all 5000ms ease;
+}
+
+#triangleM1:hover {
+	opacity: .5;
+	transform: rotateY(450deg);
+	z-index: 2;
+	
+}
+
+
+#ptriangleM{
+	width: 0;
+	height: 0px;
+	border-bottom: 100px solid #4401FE ;
+	border-right: 100px solid transparent;
+	position: absolute;
+	left: 650px;
+	top:430px;
+	opacity: .4;
+	transition: all 2000ms ease;
+	z-index: 1;
+}
+
+#ptriangleM:hover {
+	opacity: .5;
+	transform: scale(2) translateY(-26px);
+	z-index: 2;
+	
+}
+
+#ptriangleM1{
+	width: 0;
+	height: 0;
+	border-bottom: 100px solid #4401FE;
+	border-left: 100px solid transparent;
+	position: absolute;
+	left: 650px;
+	top:430px;
+	opacity: .4;
+	transition: all 2000ms ease;
+}
+
+
+
+
+.letterE1 {
+	top:-1px;
+	left:590px;
+	position: absolute;
+	transition: all 2000ms ease;
+}
+
+
+
+
+
+
+#squareT {
+	left:980px;
+	top: 330px;
+	width: 160px;
+	height: 200px;
+	background: #FACDCD;
+	position: absolute;
+	opacity: ;
+	z-index: ;
+	transition: all 2000ms ease;
+}
+
+
+
+#squareT1 {
+	left:1034px;
+	top: 330px;
+	width: 50px;
+	height: 200px;
+	background: #FE5757;
+	position: absolute;
+	opacity: 0.7;
+	transition: all 4000ms ease;
+}
+
+#squareT1:hover {
+	opacity: 0.7;
+	transform:  rotate(450deg) scale(11) translateX(0px);
+	background: blue;
+	z-index: 4;
+
+}
+
+#squareT2{
+	left:980px;
+	top: 330px;
+	width: 160px;
+	height: 50px;
+	background: #FE5757;
+	position: absolute;
+	opacity: 0.7;
+	transition: all 2000ms ease;	
+}
+
+#squareT2:hover {
+	opacity: 0;
+	transform: rotateZ(450deg)translateY(500px)scale(-5);
+	background: ;
+}
+
+
+
+
+
+
+
+#squareR{
+	 left:1150px;
+	top: 330px;
+	width: 160px;
+	height: 200px;
+	background: #FACDCD;
+	position: absolute;
+	transition: all 2000ms ease;
+}
+
+#squareR1 {
+	left:1150px;
+	top: 330px;
+	width: 50px;
+	height: 200px;
+	background: #FE5757;
+	position: absolute;
+	opacity: 0.7;
+	transition: all 2000ms ease;
+}
+
+
+#squareR1:hover {
+	opacity: 0;
+	transform: translateY(-500px);
+	background: ;
+}
+
+
+
+
+#circleR{
+	font-size: 9.5em; /* This controls the size. */
+ display: inline-block;
+ width: 0.4em;
+ height: 0.4em;
+ border: 0.3em solid #FE5757 ;
+ position: relative;
+ border-radius: 0.5em;
+ position: absolute;
+ left: 1159px;
+ top: 330px;
+ opacity: .7;
+ z-index: 1;
+ transition: all 4000ms ease;
+}
+
+#circleR:hover {
+	opacity: .7;
+	transform: skewY(210deg) rotate(90deg)translateY(-900px);
+	z-index: 5;
+}
+
+#psquareR{
+	left:1200px;
+	top: 376px;
+	width: 38px;
+	height: 60px;
+	background: #FACDCD;
+	position: absolute;
+	opacity: ;
+	z-index: 3;
+	transition: all 2000ms ease;
+}
+
+#squareR2	{
+	left:1150px;
+	top: 330px;
+	width: 80px;
+	height: 49px;
+	background: #FE5757;
+	position: absolute;
+	opacity: .7;
+	z-index: 3;
+	transition: all 2000ms ease;
+}
+
+#squareR3	{
+	left:1150px;
+	top: 330px;
+	width: 80px;
+	height: 49px;
+	background: #FE5757;
+	position: absolute;
+	opacity: .7;
+	z-index: 3;
+	transition: all 2000ms ease;
+}
+
+#squareR4 {
+	border-bottom: 44px solid  #FE5757;
+	border-left: 44px solid transparent;
+	border-right: 0px solid transparent;
+	height: 0px;
+	width: 75px;
+	position: absolute;
+	left: 1194px;
+	top: 480px;
+	transform: rotate(226deg);
+	opacity: .7;
+	transition: all 2000ms ease;
+}
+
+
+
+
+
+
+
+
+
+#squareI {
+	left:1324px;
+	top: 330px;
+	width: 140px;
+	height: 200px;
+	background: #FACDCD;
+	position: absolute;
+	transition: all 2000ms ease;
+}
+
+#squareI1{
+	left:1324px;
+	top: 330px;
+	width: 50px;
+	height: 200px;
+	background: #FE5757;
+	position: absolute;
+	opacity: 0.7;
+	transition: all 2000ms ease;
+}
+
+#squareI1:hover {
+	opacity: .4;
+	transform: rotateY(180deg) translateX(-90px);
+	z-index: 5;
+	background:blue;
+}
+
+
+
+
+
+
+
+
+
+#rectangleC{
+	left:1475px;
+	top: 330px;
+	width: 200px;
+	height: 200px;
+	background: #FACDCD;
+	position: absolute;
+	transition: all 2000ms ease;
+
+}
+#circleC{
+	font-size: 17.4em; /* This controls the size. */
+ display: inline-block;
+ width: 0.36em;
+ height: 0.36em;
+ border: 0.18em solid #FE5757 ;
+ position: relative;
+ border-radius: 0.35em;
+ position: absolute;
+ left: 1476px;
+ top: 330px;
+ opacity: .7;
+ z-index: 1;
+ transform: rotate(810deg);
+ transition: all 2000ms ease;
+
+}
+
+#circleC:hover {
+	opacity: 1;
+	transform: translateX(-1465px) scale(90);
+	z-index: 5;
+	background-color: black;
+
+}
+
+
+#rectangleC1{
+	width: 100px;
+	height: 40px;
+	background: #4401FE;
+	opacity:.4;
+	position: absolute;
+	left:1575px;
+	top:410px;
+	z-index:2;
+	transition: all 2000ms ease;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes fadein {
+	0% {
+		opacity:0;
+		transform: translateX(20px);
+	}
+
+	70% {
+		opacity: 1;
+		transform: translateY(50px);
+	}
+
+	95% {
+		opacity:1;
+		transform: translateY(50px);		
+	}
+
+	100% {
+		opacity:0;
+		transform: translateY(20px);		
+	}
+
+}
+
+
+
+}
