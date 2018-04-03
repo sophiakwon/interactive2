@@ -1,0 +1,61 @@
+/* reset */
+
+
+#eye {
+ width:2000px;
+ left:-150px;
+ position: absolute;
+ top:-250px	;
+ z-index: 0;
+
+
+}
+
+#tear1{
+	width:200px;
+	left:750px;
+	position: absolute;
+	top:200px;
+	z-index: 1;
+	transition: all 1500ms ease;
+	opacity: 0;
+}
+ 
+ #tear1:hover  {
+	opacity: 1;
+	transform: translateY(900px) ;
+	transform: 	scale();	
+}
+
+
+
+
+}
+
+
+
+@keyframes fadein {
+	0% {
+		opacity:0;
+		transform: translateX(20px);
+	}
+
+	70% {
+		opacity: 1;
+		transform: translateY(50px);
+	}
+
+	95% {
+		opacity:1;
+		transform: translateY(50px);		
+	}
+
+	100% {
+		opacity:0;
+		transform: translateY(20px);		
+	}
+
+}
+
+
+/* useful */
