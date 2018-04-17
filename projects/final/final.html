@@ -1,0 +1,29 @@
+<h4>SVG waves with feDisplacementMap</h4>
+<p>Working on Chrome, Opera, Firefox & Edge</p>
+<div>
+  <svg width="300" height="300">
+  <desc>First SVG: definitions and the radial gradient used for the feDisplacementMap filter</desc>
+  <defs>
+   
+ <filter id="f" primitiveUnits="objectBoundingBox">
+   <feImage result="pict2" xlink:href=""></feImage> 
+   <feDisplacementMap scale=".05" xChannelSelector="R" yChannelSelector="R" in2="pict2" in="SourceGraphic"></feDisplacementMap>
+</filter> 
+    
+    
+<pattern id="imageFill" width="1" height="1"
+viewBox="0 0 300 300" >
+<image id="ripples" width="300" height="300"
+xlink:href="" />
+</pattern>
+</defs> 
+    
+<rect id="witness" width="300" height="300" fill="url(#imageFill)" ></rect>  
+</svg>
+
+  <svg width="300" height="300">
+  <desc>Forth SVG: image affected by the feDisplacementMap filter</desc>
+<image id="Darwin" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/222579/beagle400.jpg" width="300" height="300" filter="url(#f)"></image> 
+</svg>
+
+</div>
