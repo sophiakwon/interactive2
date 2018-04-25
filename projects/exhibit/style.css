@@ -1,0 +1,264 @@
+body, div, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, form, fieldset, input, textarea, blockquote {
+	margin: 0; padding: 0; border: 0;
+}
+
+body {
+	font: 18px/30px Sans-serif; color: #fff;
+	font-family: "proxima-nova";
+}
+
+li{
+	box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
+}
+
+
+
+section {
+	overflow-x: hidden; 
+
+}
+
+
+@keyframes arrow{
+    from{opacity: 0;bottom: 3%;   }
+    to{opacity: 0.7;bottom: 2%;}
+}
+
+#intro { 
+	height: 6500px;
+	background-color: #f6f0e2;
+}
+
+.mask3{
+    width: 120%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.mask2{
+    width: 105%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: -2.5%;
+    opacity: 0;
+}
+.mask1{
+    width: 105%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: -2.5%;
+    opacity: 1;
+}
+
+.roy{
+	position: absolute;
+	left: -20%;
+	top: 10%;
+	width: 100%;
+
+
+}
+
+
+	
+	
+	
+#firstani {
+	
+	position: relative; 
+	height: 3000px;
+}
+
+#thirdani {
+	
+	position: relative; 
+	height: 3000px;
+}
+
+.back{
+	height: 110%;
+	position: fixed;
+	left: 0;
+	top: 0;
+}
+
+.back2{
+	height: 110%;
+	position: fixed;
+	left: 0;
+	top: 0;
+}
+
+.back3{
+	height: 110%;
+	position: fixed;
+	left: 0;
+	top: 0;
+
+}
+
+.back4{
+	width: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	height: auto;
+}
+
+.bullet{
+	position: fixed;
+	right: 41%;
+	top: 11.5%;
+	transform: scale(0.04);
+}
+
+.varoom{
+	position: fixed;
+	right: 0;
+    bottom: -20%;
+}
+
+.cloud{
+   position: fixed;
+   top: 20%;
+}
+
+.plane {
+	position: fixed;
+	height: 100%;
+	top: 0%;
+}
+
+.plane > img {
+	height: 100%;
+}
+
+.fire{
+	position: fixed;
+   height: 100%;
+	top: 0%;
+}
+
+.whaam{
+	position: fixed;
+   
+	top: 30%;
+}
+
+.whaam > img{
+	position: fixed;
+   
+	top: 30%;
+}
+
+
+	
+
+
+.tag{
+	width: auto;
+	background-color: white;
+	color: black;
+	height: auto;
+	position: absolute;
+	font-weight: 600;
+	font-size: 2.3em;
+	left: 3%;
+	padding-top: 160px;
+	padding-bottom: 20px;
+	padding-left: 25px;
+	padding-right: 25px;
+	box-shadow: 0px 20px 23px -15px rgba(0,0,0,0.45);
+	line-height: 38px;
+
+}
+
+
+#secondani {
+	background: #28323c url(images/paper.jpg);
+	background-size: 100% 100%; 
+	height: 2200px;
+	
+}
+
+#tickets {
+	background: #f6f0e2 url(images/finaltitle.png); 
+	background-size: 100% auto; 
+	height: 940px;
+	
+}
+.hand1{
+	position: fixed;
+    height: 100%;
+	top: 0%;
+}
+
+.hand2{
+	position: fixed;
+    height: 100%;
+	top: 0%;
+}
+
+
+#exhibition{
+	background-color: #f6f0e2;
+	height:839px;
+}	
+
+
+#exhibition p {
+		position: absolute;
+		font-weight: 300;
+		font-size:0.8em;
+		line-height:27px;
+		top: 225px; 
+		left: 5%;
+		
+		width: 35%;
+		height: 500px;		
+		color: black;
+	}
+
+.people{
+	position: absolute;
+	
+	top: 30;
+	height: 100%;
+	left: 45%;
+}
+
+
+.stage{
+	position: absolute;
+	right: -10%;
+    top: calc(50% - 400px);
+	background-color: transparent;
+	height: 600px;
+	width: 80%;
+	float: left;
+}
+
+
+@media screen and (max-width: 1200px) {
+.plane {
+	height: 50%;
+	top:25%;
+}
+
+.plane > img {
+	height: 100%;
+}
+
+}
+
+
+@media screen and (max-width: 1200px) {
+
+
+
+}
